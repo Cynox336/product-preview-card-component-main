@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(252, 243, 231);
+
+}
+div {
+    background-color: white;
+}
+p.precio {
+    color: green;
+}
+span {
+    text-decoration:line-through;
+    color: gray;
+}
