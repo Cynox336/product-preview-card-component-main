@@ -1,14 +1,61 @@
+* {
+    box-sizing: border-box;
+}
 body {
-    background-color: rgb(252, 243, 231);
+    background-color: hsl(30, 38%, 92%);
+}
+.product_image {
+    background-position: center, center;
+    background-image: url(./images/image-product-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px 16px 0px 0px;
+    height: 375px;
+}
+.product_info {
+    height: 375px;
+    width: 375px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
 
 }
-div {
-    background-color: white;
+.product_description {
+    line-height: 1rem;
+    color:hsl(228, 12%, 48%);
+    text-transform: uppercase;
+    font-family: 'Montserrat';
 }
-p.precio {
-    color: green;
+h1 {
+    padding: 1rem;
+    color: hsl(212, 21%, 14%);
+    font-family: 'fraunces';
 }
-span {
+p {
+    font-size: 14px;
+    font-family: 'montserrat';
+    color: hsl(228, 12%, 48%);
+}
+.product_price {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: 'montserrat';
+}
+.actual_price {
+    color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+    font-family: 'fraunces';
+}
+.previous_price {
     text-decoration:line-through;
-    color: gray;
+    color: hsl(228, 12%, 48%);
+}
+button {
+    font-family: 'montserrat';
+    display: flex;
+    background-color: hsl(158, 36%, 37%);
+    text-align: center;
+    margin: 0 auto;
+    
 }
